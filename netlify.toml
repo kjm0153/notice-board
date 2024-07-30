@@ -1,4 +1,4 @@
 [build]
-  base = "/"
-  publish = "build"
+  base = "/opt/build/repo"
+  publish = "/opt/build/repo/build"
   command = "npm run build"
