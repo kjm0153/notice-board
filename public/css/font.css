@@ -1,0 +1,11 @@
+@import url("../font/pretendard.css");
+
+@font-face {
+    font-family: 'NanumGarMaseGeur';
+    src: url('../font/NanumGarMaesGeur.ttf');
+}
+
+
+html{
+    font-family: 'Pretendard';
+}
