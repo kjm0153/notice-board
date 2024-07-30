@@ -1,4 +1,12 @@
 [build]
-  base = "/opt/build/repo"
-  publish = "/opt/build/repo/build"
+  base = "/"
+  publish = "public"  # 정적 파일들이 있는 경우
   command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
+
+[functions]
+  directory = "netlify/functions"
